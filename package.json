@@ -1,0 +1,34 @@
+{
+  "name": "draggable-arc",
+  "version": "1.0.0",
+  "description": "React component to drag a point along a circular arc",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tythe-org/draggable-arc.git"
+  },
+  "keywords": [
+    "react",
+    "arc",
+    "circular",
+    "path",
+    "drag",
+    "draggable"
+  ],
+  "author": {
+    "name" : "Dan Kwiatkowski",
+    "email" : "dan@tythe.org",
+    "url" : "http://tythe.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tythe-org/draggable-arc/issues"
+  },
+  "homepage": "https://github.com/tythe-org/draggable-arc#readme"
+}
