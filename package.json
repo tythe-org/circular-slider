@@ -1,6 +1,6 @@
 {
   "name": "draggable-arc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React component to drag a point along a circular arc",
   "main": "build/index.js",
   "scripts": {
