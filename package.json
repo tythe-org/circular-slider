@@ -1,5 +1,5 @@
 {
-  "name": "draggable-arc",
+  "name": "circular-slider",
   "version": "1.1.0",
   "description": "React component to drag a point along a circular arc",
   "main": "build/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tythe-org/draggable-arc.git"
+    "url": "git+https://github.com/tythe-org/circular-slider.git"
   },
   "keywords": [
     "react",
@@ -20,7 +20,8 @@
     "circular",
     "path",
     "drag",
-    "draggable"
+    "draggable",
+    "slider"
   ],
   "author": {
     "name": "Dan Kwiatkowski",
@@ -29,9 +30,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tythe-org/draggable-arc/issues"
+    "url": "https://github.com/tythe-org/circular-slider/issues"
   },
-  "homepage": "https://github.com/tythe-org/draggable-arc#readme",
+  "homepage": "https://github.com/tythe-org/circular-slider#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
