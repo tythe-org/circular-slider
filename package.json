@@ -1,7 +1,7 @@
 {
   "name": "circular-slider",
-  "version": "1.2.0",
-  "description": "React component to drag a point along a circular arc",
+  "version": "1.3.1",
+  "description": "React component to drag a point along a circular path",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
@@ -45,10 +45,12 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-watch": "^3.1.2",
-    "polished": "^1.3.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "dependencies": {
+    "polished": "^1.3.0",
     "styled-components": "^2.1.1"
   }
 }
