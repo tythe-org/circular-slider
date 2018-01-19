@@ -1,6 +1,8 @@
 # circular-slider
 React component to drag a point along a circular path
 
+<img src="https://user-images.githubusercontent.com/5648607/28548067-db607404-70c9-11e7-86af-bafee16cc0c6.gif" />
+
 ## Installation
 
 ```shell
