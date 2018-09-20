@@ -3,6 +3,7 @@
   "version": "1.3.1",
   "description": "React component to drag a point along a circular path",
   "main": "build/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "babel lib -d build",
     "build:watch": "babel lib -w -d build",
@@ -34,6 +35,8 @@
   },
   "homepage": "https://github.com/tythe-org/circular-slider#readme",
   "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
