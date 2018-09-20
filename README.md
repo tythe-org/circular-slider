@@ -37,7 +37,10 @@ Prop | Type | Default | Description
 angle | Number | 200 | Current angle of handle
 arcEnd | Number | 360 | Angle of end of optional arc
 arcStart | Number | 180 | Angle of start of optional arc
-color | String | darkseagreen | Color of handle (and optional needle & arc)
+arcThickness | Number | 1 | Thickness of the arc in pixels
+color | String | darkseagreen | Main color for handle, needle & arc
+draggerColor | String | color | Specific color for handle
+draggerRadius | String | 8 | Color of handle (and optional needle & arc)
 onMove | Function | () => {} | Handler function (takes new angle as sole argument)
 r | Number | 100 | Radius of the path the slider follows
 showArc | Boolean | false | Renders a circular arc
